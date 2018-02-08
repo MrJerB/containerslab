@@ -9,7 +9,7 @@ kubectl describe deployment
 kubectl describe service
 
 # Monitor progress
-kubectl get service azure-vote-front --watch
+kubectl get service vote-front-service --watch
 
 # Open a browser and go to the following link
 http://<EXTERNAL-IP>
